@@ -1,0 +1,13 @@
+.card{
+    background: white; 
+    min-width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -2px #0000006b;
+}
+.card--img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,15 @@
+@import "./var.scss";
+.btn {
+  border-radius: 5px;
+  height: 40px;
+  background: white;
+  border: solid 2px $color-b;
+  width: 200px;
+  transition: 0.2s ease-in-out;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+.btn:hover,
+.btn:focus {
+    background-color: rgba($color-b,  0.1);
+}
